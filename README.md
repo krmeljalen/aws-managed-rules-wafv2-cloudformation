@@ -2,9 +2,9 @@
 This repository provides you with scripts needed to generate stack with all AWS managed wafv2 rule groups.
 
 ## Prerequisites
-To run `./list-available-rules.sh` you should run `aws configure` first!
-Jq is needed so: `pip install jq==1.0.2`
-Install troposphere: `pip install troposphere==2.6.2`
+To run `./list-available-rules.sh` you should run `aws configure` first. jq is needed: `pip install jq==1.0.2`
+
+For running wafv2-template.py, install troposphere: `pip install troposphere==2.6.2`
 
 ## Files
 `list-available-rules.sh` - lists all available rules
