@@ -3,6 +3,7 @@ This repository provides you with scripts needed to generate stack with all AWS 
 
 ## Prerequisites
 To run `./list-available-rules.sh` you should run `aws configure` first!
+Jq is needed so: `pip install jq==1.0.2`
 Install troposphere: `pip install troposphere==2.6.2`
 
 ## Files

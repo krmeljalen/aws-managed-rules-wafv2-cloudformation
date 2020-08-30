@@ -1,1 +1,2 @@
 troposphere==2.6.2
+jq==1.0.2
