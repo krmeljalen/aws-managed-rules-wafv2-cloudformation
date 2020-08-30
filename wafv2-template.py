@@ -5,6 +5,10 @@ from troposphere.cloudformation import Stack
 from troposphere.wafv2 import WebACL, DefaultAction, AllowAction, BlockAction, RuleAction, OverrideAction, CountAction, NoneAction
 from troposphere.wafv2 import StatementOne, ManagedRuleGroupStatement, WebACLRule, VisibilityConfig, IPSet, IPSetReferenceStatement
 
+#
+# You can edit these to your liking
+#
+
 managed_rules=[
   "AWSManagedRulesCommonRuleSet",
   "AWSManagedRulesAdminProtectionRuleSet",
@@ -43,6 +47,7 @@ def generate_managed_rules():
     )
     priority=(priority+1)
   return rules
+
 
 t = Template()
 t.add_version("2010-09-09")
